@@ -1,3 +1,3 @@
 # Tomatalk readme file
 
-css is so amazing but difficult.
+HTML & CSS are so much cool!
