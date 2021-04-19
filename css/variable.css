@@ -1,0 +1,9 @@
+:root {
+  --tomato: #ff6347;
+  --tomato-light: #ff9582;
+  --yellow: #fae100;
+  --chat-background: #abc1d0;
+  --horizontal-space: 25px;
+  --border-color: rgba(0, 0, 0, 0.2);
+  --font-gray: rgba(0, 0, 0, 0.5);
+}

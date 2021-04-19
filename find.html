@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - TomaTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 nav__icon screen-header__icons__svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </span>
+
+        <span class="screen-header__settings">
+          <div class="screen-header__settings__notification"></div>
+          <a href="settings.html"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 nav__icon screen-header__icons__svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 icon-row__icon__svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"
+            />
+          </svg>
+          <span class="icon-row__icon__text">QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 icon-row__icon__svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
+            />
+          </svg>
+          <span class="icon-row__icon__text">Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 icon-row__icon__svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"
+            />
+          </svg>
+          <span class="icon-row__icon__text">Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 icon-row__icon__svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            />
+          </svg>
+          <span class="icon-row__icon__text">Invite</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <p>You have no recommended friends.</p>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <div class="open-chat__header__gohome">
+            <p>Go to Openchat Home</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 open-chat__chevron"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-post">
+        <div class="open-post__column">
+          <h5 class="open-post__title">#BTS</h5>
+          <h6 class="open-post__hashtags">#BTS#ARMY#FRIENDS</h6>
+          <div class="open-post__members">
+            <img src="images/lighty_avatar.jpeg" />
+            <span class="open-post__member-count">802 members</span>
+            <div class="divider"></div>
+            <span class="open-post__member-status">Active</span>
+          </div>
+        </div>
+        <div class="open-post__column">
+          <div class="open-post__photo">
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+            <div class="open-post__heart-count">
+              <i class="fas fa-heart fa-xs"></i><span>326</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-post">
+        <div class="open-post__column">
+          <h5 class="open-post__title">Bts Gang~</h5>
+          <h6 class="open-post__hashtags">#englishonly #ipurpleyou #jmin</h6>
+          <div class="open-post__members">
+            <img src="images/lighty_avatar.jpeg" />
+            <span class="open-post__member-count">299 members</span>
+            <div class="divider"></div>
+            <span class="open-post__member-status">Active</span>
+          </div>
+        </div>
+        <div class="open-post__column">
+          <div class="open-post__photo">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6zmCLv1QMbgYxkGi3Evp1dO864ccaQGMMog&usqp=CAU"
+            />
+            <div class="open-post__heart-count">
+              <i class="fas fa-heart fa-xs"></i><span>326</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 nav__icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__chat-notification badge">1</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 nav__icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 nav__icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M9 9a2 2 0 114 0 2 2 0 01-4 0z" />
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more-notification"></div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 nav__icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big. Make it small.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
