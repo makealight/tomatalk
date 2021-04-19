@@ -1,0 +1,96 @@
+.friends-display-link__icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.2;
+  margin: 0px 10px;
+}
+
+#friends-display-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 15px 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen__channel__chevron-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 15px;
+}
+.friends-screen__channel__header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.4;
+}
+
+@keyframes dropTomato {
+  0% {
+    transform: translateY(-500px);
+  }
+  30% {
+    transform: translateY(10px);
+  }
+  70% {
+    transform: scale(1.05, 1);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+@keyframes fadeInTomaTalk {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: var(--tomato-light);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 4s;
+}
+#splash-screen span {
+  opacity: 0;
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  animation: fadeInTomaTalk 2s ease-in-out forwards;
+  animation-delay: 1s;
+}
+#splash-screen img {
+  height: 150px;
+  width: 150px;
+  animation: dropTomato 3s ease-in-out forwards;
+}

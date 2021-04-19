@@ -1,0 +1,34 @@
+.alt-header__column__icon {
+  width: 32px;
+  height: 32px;
+  color: inherit;
+}
+.alt-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px 25px 10px;
+  z-index: 2;
+}
+
+.alt-header__column__text {
+  font-size: 25px;
+  font-weight: 500;
+}
+.alt-header__column {
+  display: flex;
+  width: 33%;
+}
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:nth-child(2) {
+  justify-content: center;
+}
+.alt-header__column:last-child {
+  justify-content: flex-end;
+  padding-right: 5px;
+}
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}

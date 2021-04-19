@@ -1,0 +1,32 @@
+.user-component__right-comment {
+  width: 40px;
+  height: 40px;
+}
+.user-component__sub__icon {
+  width: 20px;
+  height: 20px;
+  color: #ff63c2;
+  margin-left: 5px;
+}
+.user-component__sub {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.user-component__subtitle {
+  margin-top: 0px;
+}
+.user-component__column:last-child {
+  color: inherit;
+}
+.more-screen .icon-row {
+  margin-top: 20px;
+}
+.more-suggestions {
+  margin-top: 15px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 25px;
+}
+.more-suggestions_title {
+  margin-bottom: 25px;
+}
